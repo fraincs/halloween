@@ -24,7 +24,9 @@
       const buttons = document.getElementsByClassName("button");
       document.addEventListener("click", event => {
         const audio = new Audio(`assets/${event.target.dataset.song}.wav`);
-        audio.play();
+        if (audio !== undefined) {
+          audio.play();
+        }
       });
     </script>
   </body>

@@ -369,10 +369,15 @@ li {
   height: 130px;
   transition: all 0.3s ease-in-out;
   padding: 10px;
+  color: white;
 }
 
 li:hover,
 li:focus,
 li:active {
   transform: scale(0.96);
+}
+
+img {
+  width: 100%;
 }
