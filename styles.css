@@ -352,15 +352,15 @@ template {
 
 body {
   background: black;
-  padding: 20px;
+  padding: 0;
 }
 
 ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-  padding: 0;
-  margin: 0;
+  padding: 0 20px;
+  margin: 20px 0;
 }
 
 li {
@@ -379,5 +379,11 @@ li:active {
 }
 
 img {
+  width: 50%;
+}
+
+.flex {
+  display: flex;
   width: 100%;
+  justify-content: flex-end;
 }
